@@ -1,23 +1,33 @@
-﻿<Properties StartupConfiguration="{AC84FFB7-4081-46CA-934F-36683F5299B5}|Default">
+﻿<Properties StartupConfiguration="{7262A9EE-F229-4C64-8A77-60688AF8BC83}|Default">
   <MonoDevelop.Ide.ItemProperties.td3.Android FirstBuild="True" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="td3/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="td3/Views/MainPage.xaml">
     <Files>
-      <File FileName="td3/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="td3/MainPage.xaml" />
+      <File FileName="td3/Views/MainPage.xaml" />
+      <File FileName="td3/Views/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="td3/Views/MainPageMaster.xaml" />
+      <File FileName="td3/Views/MainPageMaster.xaml.cs" Line="1" Column="1" />
+      <File FileName="td3/App.xaml.cs" Line="14" Column="10" />
+      <File FileName="td3/Views/MainPageMenuItem.cs" Line="1" Column="1" />
+      <File FileName="td3/Views/UtilisateursPage.xaml" />
+      <File FileName="td3/Views/UtilisateursPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="td3" expanded="True">
-            <Node name="td3" expanded="True" />
+            <Node name="td3" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="MainPage.xaml" expanded="True" selected="True" />
+                <Node name="UtilisateursPage.xaml" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.td3.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.td3.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E7B410AF-CADB-471A-BF18-2B8B9985C294" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.td3 FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

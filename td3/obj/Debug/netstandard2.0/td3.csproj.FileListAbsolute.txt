@@ -1,0 +1,15 @@
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/bin/Debug/netstandard2.0/td3.deps.json
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/bin/Debug/netstandard2.0/td3.dll
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/bin/Debug/netstandard2.0/td3.pdb
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/td3.csprojAssemblyReference.cache
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/td3.csproj.CoreCompileInputs.cache
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/td3.AssemblyInfoInputs.cache
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/td3.AssemblyInfo.cs
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/td3.dll
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/td3.pdb
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/Views/MainPageMaster.xaml.g.cs
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3/obj/Debug/netstandard2.0/Views/UtilisateursPage.xaml.g.cs

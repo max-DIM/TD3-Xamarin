@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="td3.Views.UtilisateursPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20,20,20,0">
+        <StackLayout x:Name="LayoutConnexion" IsVisible="{Binding VisibleLayoutConnexion}">
+            <Label Text="Adresse e-mail"/>
+            <Entry x:Name="identifiantConnexion" Keyboard="Email"/>
+            <Label Text="Mot de passe" />
+            <Entry x:Name="motDePasseConnexion" IsPassword="True"/>
+            <Button x:Name="connexionBouton" Text="Connexion" IsEnabled="True"/> 
+            <Button x:Name="creationBouton" Text="Créer un compte" IsEnabled="True"/>
+        </StackLayout>
+        <StackLayout x:Name="LayoutConnexionSucces" HorizontalOptions="Center" VerticalOptions="Start" IsVisible="{Binding VisibleLayoutConnexionSuccess}">
+            <Label Text="Vous êtes désormais connecté !" TextColor="Green" />
+        </StackLayout>
+        <ScrollView>
+            <StackLayout x:Name="LayoutCreation" IsVisible="{Binding VisibleLayoutCreation}">
+                <Label Text="Prénom"/>
+                <Entry x:Name="prenom"/>
+                <Label Text="Nom"/>
+                <Entry x:Name="nom"/>
+                <Label Text="Email"/>
+                <Entry x:Name="email" Keyboard="Email"/> <Label Text="Mot de passe"/>
+                <Entry x:Name="motDePasse" IsPassword="True"/>
+                <Label Text="Confirmez le mot de passe"/>
+                <Entry x:Name="motDePasseVerification" IsPassword="True"/> <Label Text="Rue"/>
+                <Entry x:Name="rue"/>
+                <Label Text="Code postal"/>
+                <Entry x:Name="CP" Keyboard="Telephone"/>
+                <Label Text="Ville"/>
+                <Entry x:Name="ville"/>
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                    <Button x:Name="retourConnexionBouton" Text="Retour" IsEnabled="True" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+                    <Button x:Name="creerCompteBouton" Text="Valider" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                </StackLayout> 
+            </StackLayout>
+        </ScrollView> 
+    </StackLayout>
+</ContentPage.Content>
+</ContentPage>

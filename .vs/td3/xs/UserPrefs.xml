@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{AC84FFB7-4081-46CA-934F-36683F5299B5}|Default">
+  <MonoDevelop.Ide.ItemProperties.td3.Android FirstBuild="True" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="td3/MainPage.xaml">
+    <Files>
+      <File FileName="td3/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="td3/MainPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="td3" expanded="True">
+            <Node name="td3" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.td3.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.td3 FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

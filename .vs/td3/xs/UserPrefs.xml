@@ -1,26 +1,23 @@
 ﻿<Properties StartupConfiguration="{7262A9EE-F229-4C64-8A77-60688AF8BC83}|Default">
   <MonoDevelop.Ide.ItemProperties.td3.Android FirstBuild="True" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="td3/Views/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="td3/AssemblyInfo.cs">
     <Files>
       <File FileName="td3/Views/MainPage.xaml" />
       <File FileName="td3/Views/MainPage.xaml.cs" Line="1" Column="1" />
       <File FileName="td3/Views/MainPageMaster.xaml" />
       <File FileName="td3/Views/MainPageMaster.xaml.cs" Line="1" Column="1" />
       <File FileName="td3/App.xaml.cs" Line="14" Column="10" />
-      <File FileName="td3/Views/MainPageMenuItem.cs" Line="1" Column="1" />
+      <File FileName="td3/Views/MainPageMenuItem.cs" Line="18" Column="45" />
       <File FileName="td3/Views/UtilisateursPage.xaml" />
       <File FileName="td3/Views/UtilisateursPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="td3/App.xaml" />
+      <File FileName="td3/AssemblyInfo.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="td3" expanded="True">
-            <Node name="td3" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="MainPage.xaml" expanded="True" selected="True" />
-                <Node name="UtilisateursPage.xaml" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="td3" expanded="True" />
           </Node>
         </State>
       </Pad>

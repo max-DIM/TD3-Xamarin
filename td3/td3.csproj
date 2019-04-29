@@ -26,5 +26,8 @@
     <Compile Update="Views\MainPageMaster.xaml.cs">
       <DependentUpon>MainPageMaster.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\UtilisateursPage.xaml.cs">
+      <DependentUpon>UtilisateursPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

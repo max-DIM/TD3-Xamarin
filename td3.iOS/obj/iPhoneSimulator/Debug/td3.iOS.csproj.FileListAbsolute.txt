@@ -55,9 +55,9 @@
 /Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/td3.iOS.csproj.CopyComplete
 /Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/td3.iOS.exe
 /Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/td3.iOS.pdb
-/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad8.5-12.2/ibtool/_BundleResourceWithLogicalName.items
-/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad8.5-12.2/actool/_PartialAppManifest.items
-/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad8.5-12.2/actool/_BundleResourceWithLogicalName.items
-/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad8.5-12.2/coremlc/_PartialAppManifest.items
-/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad8.5-12.2/coremlc/_BundleResourceWithLogicalName.items
-/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad8.5-12.2/optimized/
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.2/actool/_PartialAppManifest.items
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.2/actool/_BundleResourceWithLogicalName.items
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.2/coremlc/_PartialAppManifest.items
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/maxime/Documents/Cours/Xamarin/TD3/td3/td3.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.2/optimized/

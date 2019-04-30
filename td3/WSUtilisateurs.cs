@@ -52,5 +52,16 @@ namespace td3
 
             return user;
         }
+
+        public async Task<Utilisateur> PostUtilisateurAsync(Utilisateur user)
+        {
+            var contenu = JsonConvert.SerializeObject(user);
+            var buffer = System.Text.Encoding.UTF8.GetBytes(contenu);
+            var userACreer = new ByteArrayContent(buffer);
+            userACreer.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            var test = "ok";
+            // try catch a definir plus tard
+            return user;
+        }
     }
 }

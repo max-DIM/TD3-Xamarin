@@ -4,9 +4,9 @@
         <StackLayout Margin="20,20,20,0">
         <StackLayout x:Name="LayoutConnexion" IsVisible="{Binding VisibleLayoutConnexion}">
             <Label Text="Adresse e-mail"/>
-            <Entry x:Name="identifiantConnexion" Keyboard="Email"/>
+            <Entry x:Name="identifiantConnexion" Keyboard="Email" Text="{Binding EmailConnexion, Mode=TwoWay}"/>
             <Label Text="Mot de passe" />
-            <Entry x:Name="motDePasseConnexion" IsPassword="True"/>
+            <Entry x:Name="motDePasseConnexion" IsPassword="True" Text="{Binding MDPConnexion, Mode=TwoWay}"/>
             <Button x:Name="connexionBouton" Text="Connexion" IsEnabled="True"/> 
             <Button x:Name="creationBouton" Text="Créer un compte" IsEnabled="True"/>
         </StackLayout>
@@ -16,19 +16,21 @@
         <ScrollView>
             <StackLayout x:Name="LayoutCreation" IsVisible="{Binding VisibleLayoutCreation}">
                 <Label Text="Prénom"/>
-                <Entry x:Name="prenom"/>
+                <Entry x:Name="prenom" Text="{Binding PrenomInscription, Mode=TwoWay}"/>
                 <Label Text="Nom"/>
-                <Entry x:Name="nom"/>
+                <Entry x:Name="nom" Text="{Binding NomInscription, Mode=TwoWay}"/>
                 <Label Text="Email"/>
-                <Entry x:Name="email" Keyboard="Email"/> <Label Text="Mot de passe"/>
-                <Entry x:Name="motDePasse" IsPassword="True"/>
+                <Entry x:Name="email" Keyboard="Email" Text="{Binding EmailInscription, Mode=TwoWay}"/> 
+                <Label Text="Mot de passe"/>
+                <Entry x:Name="motDePasse" IsPassword="True" Text="{Binding PasswordInscription, Mode=TwoWay}"/>
                 <Label Text="Confirmez le mot de passe"/>
-                <Entry x:Name="motDePasseVerification" IsPassword="True"/> <Label Text="Rue"/>
-                <Entry x:Name="rue"/>
+                <Entry x:Name="motDePasseVerification" IsPassword="True" Text="{Binding Password2Inscription, Mode=TwoWay}"/>
+                <Label Text="Rue"/>
+                <Entry x:Name="rue" Text="{Binding RueInscription, Mode=TwoWay}"/>
                 <Label Text="Code postal"/>
-                <Entry x:Name="CP" Keyboard="Telephone"/>
+                <Entry x:Name="CP" Keyboard="Telephone" Text="{Binding CPInscription, Mode=TwoWay}"/>
                 <Label Text="Ville"/>
-                <Entry x:Name="ville"/>
+                <Entry x:Name="ville" Text="{Binding VilleInscription, Mode=TwoWay}"/>
                 <StackLayout Orientation="Horizontal" VerticalOptions="Center">
                     <Button x:Name="retourConnexionBouton" Text="Retour" IsEnabled="True" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
                     <Button x:Name="creerCompteBouton" Text="Valider" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>

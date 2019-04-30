@@ -57,10 +57,11 @@ namespace td3
         {
             var contenu = JsonConvert.SerializeObject(user);
             var buffer = System.Text.Encoding.UTF8.GetBytes(contenu);
-            var userACreer = new ByteArrayContent(buffer);
-            userACreer.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            var test = "ok";
+            var utilisateurACreer = new ByteArrayContent(buffer);
+            utilisateurACreer.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
             // try catch a definir plus tard
+
             return user;
         }
     }

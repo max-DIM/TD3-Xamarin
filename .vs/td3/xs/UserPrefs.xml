@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{7262A9EE-F229-4C64-8A77-60688AF8BC83}|Default">
   <MonoDevelop.Ide.ItemProperties.td3.Android FirstBuild="True" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="td3/WSUtilisateurs.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="td3/ViewModels/UtilisateursViewModel.cs">
     <Files>
       <File FileName="td3/Views/MainPage.xaml" />
-      <File FileName="td3/Views/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="td3/Views/MainPage.xaml.cs" Line="23" Column="20" />
       <File FileName="td3/Views/MainPageMaster.xaml" />
       <File FileName="td3/Views/MainPageMaster.xaml.cs" Line="1" Column="1" />
       <File FileName="td3/App.xaml.cs" Line="11" Column="35" />
@@ -12,15 +12,19 @@
       <File FileName="td3/Views/UtilisateursPage.xaml.cs" Line="1" Column="1" />
       <File FileName="td3/App.xaml" />
       <File FileName="td3/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="td3/WSUtilisateurs.cs" Line="33" Column="10" />
-      <File FileName="td3/Utilisateur.cs" Line="16" Column="1" />
+      <File FileName="td3/WSUtilisateurs.cs" Line="64" Column="1" />
+      <File FileName="td3/Models/Utilisateur.cs" Line="13" Column="45" />
+      <File FileName="td3/ViewModels/BaseViewModel.cs" Line="16" Column="1" />
+      <File FileName="td3/ViewModels/UtilisateursViewModel.cs" Line="4" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="td3" expanded="True">
             <Node name="td3" expanded="True">
-              <Node name="WSUtilisateurs.cs" selected="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="UtilisateursViewModel.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

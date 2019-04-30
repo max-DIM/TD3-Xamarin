@@ -10,6 +10,7 @@ namespace td3.Views
         public UtilisateursPage()
         {
             InitializeComponent();
+            //BindingContext = ((UtilisateursPage)Application.Current.Resources["Locator"]).Main;
         }
     }
 }

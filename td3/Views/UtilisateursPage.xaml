@@ -7,8 +7,8 @@
             <Entry x:Name="identifiantConnexion" Keyboard="Email" Text="{Binding EmailConnexion, Mode=TwoWay}"/>
             <Label Text="Mot de passe" />
             <Entry x:Name="motDePasseConnexion" IsPassword="True" Text="{Binding MDPConnexion, Mode=TwoWay}"/>
-            <Button x:Name="connexionBouton" Text="Connexion" IsEnabled="True"/> 
-            <Button x:Name="creationBouton" Text="Créer un compte" IsEnabled="True"/>
+            <Button x:Name="connexionBouton" Text="Connexion" IsEnabled="True"  Command="{Binding BtnConnexion}"/> 
+            <Button x:Name="creationBouton" Text="Creer un compte" IsEnabled="True" Command="{Binding BtnCreerCompte}"/>
         </StackLayout>
         <StackLayout x:Name="LayoutConnexionSucces" HorizontalOptions="Center" VerticalOptions="Start" IsVisible="{Binding VisibleLayoutConnexionSuccess}">
             <Label Text="Vous êtes désormais connecté !" TextColor="Green" />
@@ -32,8 +32,8 @@
                 <Label Text="Ville"/>
                 <Entry x:Name="ville" Text="{Binding VilleInscription, Mode=TwoWay}"/>
                 <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-                    <Button x:Name="retourConnexionBouton" Text="Retour" IsEnabled="True" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
-                    <Button x:Name="creerCompteBouton" Text="Valider" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                    <Button x:Name="retourConnexionBouton" Text="Retour" IsEnabled="True" HorizontalOptions="StartAndExpand" VerticalOptions="Center" Command="{Binding BtnRetourInscription}"/>
+                    <Button x:Name="creerCompteBouton" Text="Valider" HorizontalOptions="EndAndExpand" VerticalOptions="Center" Command="{Binding BtnValiderInscription}"/>
                 </StackLayout> 
             </StackLayout>
         </ScrollView> 
